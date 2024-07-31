@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-svgview"
+description = "Nodes:Preview SVG"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["numpy", "Pillow", "torch", "cairosvg"]
+
+[project.urls]
+Repository = "https://github.com/Parameshvadivel/ComfyUI-SVGview"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-SVGview"
+Icon = ""
